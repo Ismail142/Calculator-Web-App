@@ -1,0 +1,25 @@
+@import  "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Work Sans", sans-serif;
+  @apply bg-vampireBlack flex items-center h-screen justify-center dark:text-[#FFF] overflow-hidden;
+}
+
+.anim {
+  animation: animUp 0.3s ease-in-out;
+}
+
+@keyframes animUp {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}

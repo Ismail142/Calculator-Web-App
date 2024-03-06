@@ -1,0 +1,3 @@
+.screen {
+  @apply w-screen md:max-w-lg rounded-md p-4 max-md:h-screen flex flex-col justify-between max-md:pb-20 overflow-hidden;
+}
